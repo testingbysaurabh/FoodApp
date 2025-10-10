@@ -90,7 +90,8 @@ const Restaurant = () => {
         setResCities(apiData.data?.cards[10]?.card?.card?.cities);
         setAllData(apiData.data?.cards);
       } catch (error) {
-        console.log(error);
+          alert("Need CORS extension for this website ")
+        // console.log(error);
       }
     }
     getData();
