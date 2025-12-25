@@ -15,6 +15,7 @@ import Cart from "./Components/Cart";
 import Help from "./Components/Help";
 
 
+
 const Restaurant = lazy(() => import("./Components/Restaurant"));
 const Error = lazy(() => import("./Components/Error"));
 const SliderItemData = lazy(() => import("./Components/SliderItemData"));
